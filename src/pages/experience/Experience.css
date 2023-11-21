@@ -1,0 +1,100 @@
+.experience-main {
+  width: 100%;
+}
+
+.basic-experience {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.experience-heading-div {
+  display: flex;
+}
+
+.experience-heading-div > * {
+  flex: 1;
+}
+
+.exp-lottie {
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  width: 700px;
+}
+
+.experience-heading-text-div {
+  text-align: center;
+}
+
+.exp-lottie > * {
+  max-width: 100%;
+  height: auto;
+}
+
+.experience-heading-text {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.experience-heading-sub-text {
+  font-size: 30px;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.experience-header-detail-text {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Google Sans Medium";
+}
+
+@media (max-width: 1380px) {
+  .experience-heading-text {
+    font-size: 50px;
+    margin-top: 80px;
+  }
+  .experience-heading-sub-text {
+    font-size: 25px;
+  }
+  .exp-lottie {
+    height: 600px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-heading-text {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .experience-heading-sub-text {
+    font-size: 20px;
+  }
+
+  .experience-heading-div {
+    flex-direction: column;
+  }
+
+  .experience-header-detail-text {
+    font-size: 16px;
+    margin-right: 0px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .exp-lottie {
+    height: 250px;
+    width: 315px;
+    justify-content: center;
+    align-items: center;
+  }
+}
